@@ -344,7 +344,7 @@ initial begin
     begin
         i=$random()%128; j=$random()%128;
         if(t==1)begin
-          i = -128; j = -128;
+          i = -128; j = -128;rrrr
         end
         else if(t==2)begin
           i = 0; j = 0;
